@@ -1,3 +1,7 @@
 [
-{"name":"范明明IPV6","url":"https://live.fanmingming.com/tv/m3u/ipv6.m3u"}
+{"name":"范明明IPV6","url":"https://live.fanmingming.com/tv/m3u/ipv6.m3u"},
+{
+        "name": "失眠的夜IPV4",
+        "url": "https://cc-im-kefu-cos.7moor-fs2.com/im/2768a390-5474-11ea-afc9-7b323e3e16c0/d4fe44c5-107c-4511-af02-aa08fb10dff7/2024-04-25/2024-04-25_17:25:01/1714037101343/5511539/wexlive.txt"
+    }
 ]
