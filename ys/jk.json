@@ -1,0 +1,669 @@
+{
+    "spider": "https://gitee.com/Qingttkx/xiaoyugan/raw/master/ys/jar/okjpg.jar",
+    "logo": "https://8704.kstore.space/logo/smdy.jpg",
+    "wallpaper": "http://我不是.摸鱼儿.top/wallpaper/moyu.php",
+    "warningText": "失眠的夜：相遇已是心的诗篇，奈何此刻缘分断弦。",
+    "sites": [
+        {
+            "key": "豆瓣",
+            "name": "🐟公众号我不是摸鱼儿",
+            "type": 3,
+            "api": "csp_Douban",
+            "searchable": 0,
+            "changeable": 1
+        },
+        {
+            "key": "配置中心",
+            "name": "🐟阿里夸克-配置中心>؂<",
+            "type": 3,
+            "api": "csp_Config",
+            "searchable": 0,
+            "changeable": 0,
+            "indexs": 0,
+            "style": {
+                "type": "rect",
+                "ratio": 1.43
+            }
+        },
+        {
+            "key": "push_agent",
+            "name": "🐟更新时间8月16日",
+            "type": 3,
+            "api": "csp_Push",
+            "searchable": 0,
+            "filterable": 0,
+            "changeable": 0,
+            "ext": {
+                "token": "file://TV/ali_token.txt",
+                "cookie": "file://TV/quark_cookie.txt",
+                "uc_cookie": "file://TV/uc_cookie.txt",
+                "danmu": true
+            },
+            "timeout": 5
+        },
+        {
+            "key": "玩偶OK",
+            "name": "🐟小鱼干4K弹幕",
+            "type": 3,
+            "api": "csp_Wogg",
+            "searchable": 1,
+            "filterable": 1,
+            "changeable": 1,
+            "ext": {
+                "token": "file://TV/ali_token.txt",
+                "cookie": "file://TV/quark_cookie.txt",
+                "uc_cookie": "file://TV/uc_cookie.txt",
+                "wogg": true
+            },
+            "timeout": 30
+        },
+        {
+            "key": "玩偶饭",
+            "name": "👽玩偶4K弹幕",
+            "type": 3,
+            "api": "csp_WoGG",
+            "jar": "https://gitee.com/Qingttkx/xiaoyugan/raw/master/ys/jar/fan.jar",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 0,
+            "ext": {
+                "Cloud-drive": "tvfan/Cloud-drive.txt",
+                "from": "4k|auto",
+                "siteUrl": "https://www.wogg.net/",
+                "danMu": "弹"
+            }
+        },
+        {
+            "key": "土豆网盘",
+            "name": "🐟土豆4K弹幕",
+            "type": 3,
+            "api": "csp_Wobg",
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 1,
+            "ext": {
+                "token": "file://TV/ali_token.txt",
+                "cookie": "file://TV/quark_cookie.txt",
+                "site": "https://tudou.lvdoui.top"
+            },
+            "timeout": 25
+        },
+        {
+            "key": "蜡笔弹幕",
+            "name": "🐟蜡笔4K弹幕",
+            "type": 3,
+            "api": "csp_Wobg",
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 1,
+            "ext": {
+                "token": "file://TV/ali_token.txt",
+                "cookie": "file://TV/quark_cookie.txt",
+                "site": "https://duopan.fun",
+                "danmu": true
+            },
+            "timeout": 25
+        },
+        {
+            "key": "夸克至臻弹幕",
+            "name": "🐟至臻4K弹幕",
+            "type": 3,
+            "api": "csp_Wobg",
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 1,
+            "ext": {
+                "token": "file://TV/ali_token.txt",
+                "cookie": "file://TV/quark_cookie.txt",
+                "uc_cookie": "file://TV/uc_cookie.txt",
+                "site": "https://mihdr.top",
+                "danmu": true
+            }
+        },
+        {
+            "key": "多多网盘弹幕",
+            "name": "🐟多多4K弹幕",
+            "type": 3,
+            "api": "csp_Wobg",
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 1,
+            "ext": {
+                "token": "file://TV/ali_token.txt",
+                "cookie": "file://TV/quark_cookie.txt",
+                "site": "https://tv.yydsys.top/",
+                "danmu": true
+            },
+            "timeout": 25
+        },
+        {
+            "key": "酷看弹幕版",
+            "name": "🐟酷看蓝光",
+            "type": 3,
+            "api": "csp_Kkys",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": {
+                "danmu": true
+            },
+            "timeout": 10
+        },
+        {
+            "key": "文采",
+            "name": "🐟文采蓝光",
+            "type": 3,
+            "api": "csp_Jpys",
+            "jar": "https://gitee.com/Qingttkx/xiaoyugan/raw/master/ys/jar/fan.jar",
+            "playerType": 2,
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1
+        },
+        {
+            "key": "可可",
+            "name": "🐟可可蓝光",
+            "type": 3,
+            "api": "csp_Kekys",
+            "jar": "https://gitee.com/Qingttkx/xiaoyugan/raw/master/ys/jar/fan.jar",
+            "timeout": 15,
+            "playerType": 2,
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1
+        },
+        {
+            "key": "南瓜弹幕版",
+            "name": "🐟南瓜蓝光",
+            "type": 3,
+            "api": "csp_Nangua",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": {
+                "danmu": true
+            },
+            "timeout": 10
+        },             
+        {
+            "key": "韩圈",
+            "name": "🐟韩剧蓝光",
+            "type": 3,
+            "api": "csp_HanXiaoQuan",
+            "playerType": 2,
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "timeout": 10
+        },
+        {
+            "key": "厂长",
+            "name": "🐟厂长蓝光",
+            "type": 3,
+            "api": "csp_Czzy",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "timeout": 10
+        },
+        {
+            "key": "荐片弹幕版",
+            "name": "🐟荐片蓝光",
+            "type": 3,
+            "api": "csp_Jianpian",
+            "searchable": 1,
+            "changeable": 0,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": {
+                "danmu": true
+            },
+            "timeout": 10
+        },
+        {
+            "key": "JOJO弹幕版",
+            "name": "🐟JOJO蓝光",
+            "type": 3,
+            "api": "csp_Jiohub",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": {
+                "danmu": true
+            },
+            "timeout": 10
+        },
+        {
+            "key": "️爱看Bot弹幕版",
+            "name": "🐟爱看蓝光",
+            "type": 3,
+            "api": "csp_Ikanbot",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": {
+                "danmu": true
+            },
+            "timeout": 10
+        },
+        {
+            "key": "达达龟js",
+            "name": "🐟达龟蓝光",
+            "type": 3,
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "api": "https://gitee.com/okjack/okk/raw/master/drpy/drpy2.min.js",
+            "ext": "https://gitee.com/okjack/okk/raw/master/js/dadagui.js",
+            "timeout": 15
+        },
+        {
+            "key": "libvio_js",
+            "name": "🐟利播蓝光",
+            "type": 3,
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "api": "https://gitee.com/okjack/okk/raw/master/drpy/drpy2.min.js",
+            "ext": "https://gitee.com/okjack/okk/raw/master/js/libvio.js",
+            "timeout": 15
+        },
+        {
+            "key": "ddys_js",
+            "name": "🐟低端蓝光",
+            "type": 3,
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "api": "https://gitee.com/okjack/okk/raw/master/drpy/drpy2.min.js",
+            "ext": "https://gitee.com/okjack/okk/raw/master/js/ddys.js",
+            "timeout": 15
+        },
+        {
+            "key": "天天弹幕版",
+            "name": "🐟天天蓝光",
+            "type": 3,
+            "api": "csp_TianTian",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": {
+                "danmu": true
+            },
+            "timeout": 10
+        },
+        {
+            "key": "yhdm",
+            "name": "🐟樱花蓝光",
+            "type": 3,
+            "api": "csp_Ying",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "timeout": 15
+        },
+        {
+            "key": "动漫巴士",
+            "name": "🐟巴士蓝光",
+            "type": 3,
+            "api": "csp_Dm84",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "timeout": 10
+        },
+        {
+            "key": "新6V",
+            "name": "🐟新6V蓝光",
+            "type": 3,
+            "api": "csp_Xb6v",
+            "searchable": 1,
+            "changeable": 0,
+            "timeout": 20
+        },        
+        {
+            "key": "无忧短剧",
+            "name": "🐟无忧短剧",
+            "type": 3,
+            "api": "csp_Duanj",
+            "searchable": 1,
+            "changeable": 0,
+            "style": {
+                "type": "rect",
+                "ratio": 1.433
+            },
+            "timeout": 10
+        },
+        {
+            "key": "在线短剧",
+            "name": "🐟在线短剧",
+            "type": 3,
+            "api": "csp_Duanju",
+            "searchable": 1,
+            "changeable": 0,
+            "style": {
+                "type": "rect",
+                "ratio": 1.433
+            },
+            "timeout": 10
+        },
+        {
+            "key": "bili",
+            "name": "🅱哔哔┃合集",
+            "type": 3,
+            "api": "csp_Bili",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "style": {
+                "type": "rect",
+                "ratio": 1.433
+            },
+            "ext": {
+                "cookie": "file://TV/bili_cookie.txt",
+                "json": "https://gitee.com/okjack/okk/raw/master/bili.json"
+            },
+            "timeout": 20
+        },
+        {
+            "key": "biliych",
+            "name": "🅱哔哔┃歌曲",
+            "type": 3,
+            "api": "csp_Bili",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "style": {
+                "type": "rect",
+                "ratio": 1.433
+            },
+            "ext": {
+                "cookie": "file://TV/bili_cookie.txt",
+                "json": "https://gitee.com/okjack/okk/raw/master/biliych.json"
+            },
+            "timeout": 20
+        },
+        {
+            "key": "纸条",
+            "name": "🗞纸条4K搜索",
+            "type": 3,
+            "api": "csp_XiaoZhiTiao",
+            "searchable": 1,
+            "filterable": 1,
+            "changeable": 0,
+            "ext": {
+                "token": "file://TV/ali_token.txt"
+            },
+            "timeout": 15
+        },
+        {
+            "key": "盘Se",
+            "name": "🙀胖达4K搜索",
+            "type": 3,
+            "api": "csp_PanSearch",
+            "searchable": 1,
+            "filterable": 0,
+            "changeable": 0,
+            "ext": {
+                "token": "file://TV/ali_token.txt"
+            },
+            "timeout": 15
+        },
+        {
+            "key": "易搜",
+            "name": "😹易搜4K搜索",
+            "type": 3,
+            "api": "csp_YiSo",
+            "searchable": 1,
+            "filterable": 0,
+            "changeable": 0,
+            "ext": {
+                "token": "file://TV/ali_token.txt",
+                "cookie": "JSESSIONID=FEAFA3BD405267C378C2455FBAD4A704;satoken=0f065aaa-1b6b-4b9b-9910-83a67fb14da2"
+            },
+            "timeout": 15
+        },
+        {
+            "key": "csp_QuPanSou",
+            "name": "🤓趣盘4K搜索",
+            "type": 3,
+            "api": "csp_QuPanSou",
+            "searchable": 1,
+            "filterable": 1,
+            "changeable": 0,
+            "ext": {
+                "cookie": "file://TV/quark_cookie.txt"
+            },
+            "timeout": 15
+        },
+        {
+            "key": "csp_Qkpanso",
+            "name": "🐚夸克4K搜索",
+            "type": 3,
+            "api": "csp_Qkpanso",
+            "searchable": 1,
+            "filterable": 1,
+            "changeable": 0,
+            "ext": {
+                "cookie": "file://TV/quark_cookie.txt"
+            },
+            "timeout": 15
+        },
+        {
+            "key": "米搜",
+            "name": "🌖米搜4K搜索",
+            "type": 3,
+            "api": "csp_Qkpanso",
+            "searchable": 1,
+            "filterable": 1,
+            "changeable": 0,
+            "ext": {
+                "cookie": "file://TV/quark_cookie.txt",
+                "site": "https://www.misou.fun"
+            },
+            "timeout": 15
+        },
+        {
+            "key": "夸搜",
+            "name": "🚢夸搜4K搜索",
+            "type": 3,
+            "api": "csp_Qkso",
+            "searchable": 1,
+            "filterable": 1,
+            "changeable": 0,
+            "ext": {
+                "cookie": "file://TV/quark_cookie.txt"
+            },
+            "timeout": 15
+        },
+        {
+            "key": "云盘4K",
+            "name": "🤖云盘4K搜索",
+            "type": 3,
+            "api": "csp_Yunpan4k",
+            "searchable": 1,
+            "filterable": 0,
+            "changeable": 0,
+            "ext": {
+                "token": "file://TV/ali_token.txt",
+                "cookie": "file://TV/quark_cookie.txt"
+            },
+            "timeout": 15
+        },
+        {
+            "key": "影搜",
+            "name": "🌸影搜4K搜索",
+            "type": 3,
+            "api": "csp_Yingso",
+            "searchable": 1,
+            "filterable": 0,
+            "changeable": 0,
+            "ext": {
+                "token": "file://TV/ali_token.txt",
+                "cookie": "file://TV/quark_cookie.txt"
+            },
+            "timeout": 15
+        },
+        {
+            "key": "阿里合集",
+            "name": "🐟｜阿里合集",
+            "type": 3,
+            "api": "csp_AliShare",
+            "searchable": 1,
+            "changeable": 0,
+            "filterable": 0,
+            "indexs": 0,
+            "ext": {
+                "token": "file://TV/ali_token.txt",
+                "share": "file://TV/阿里集合.json"
+            },
+            "style": {
+                "type": "list"
+            },
+            "timeout": 30
+        },
+        {
+            "key": "我的阿里",
+            "name": "😼｜我的阿里",
+            "type": 3,
+            "api": "csp_MyAli",
+            "searchable": 0,
+            "quickSearch": 0,
+            "filterable": 0,
+            "indexs": 0,
+            "ext": {
+                "token": "file://TV/ali_token.txt"
+            },
+            "style": {
+                "type": "list"
+            },
+            "timeout": 30
+        },
+        {
+            "key": "我的夸克",
+            "name": "😺｜我的夸克",
+            "type": 3,
+            "api": "csp_MyQuark",
+            "searchable": 0,
+            "quickSearch": 0,
+            "filterable": 0,
+            "indexs": 0,
+            "ext": {
+                "cookie": "file://TV/quark_cookie.txt"
+            },
+            "style": {
+                "type": "list"
+            },
+            "timeout": 30
+        },
+        {
+            "key": "我的UC",
+            "name": "😽｜我的优析",
+            "type": 3,
+            "api": "csp_MyUc",
+            "searchable": 0,
+            "quickSearch": 0,
+            "filterable": 0,
+            "indexs": 0,
+            "ext": {
+                "uc_cookie": "file://TV/uc_cookie.txt"
+            },
+            "style": {
+                "type": "list"
+            },
+            "timeout": 30
+        }
+    ],
+    "parses": [
+        {
+            "name": "Json聚合",
+            "type": 3,
+            "url": "Demo"
+        },
+        {
+            "name": "Web聚合",
+            "type": 3,
+            "url": "Web"
+        },
+        {
+            "name": "公众号：我不是摸鱼儿",
+            "type": 1,
+            "url": "http://json.84jia.com/home/api?type=ys&uid=335253&key=demprsyzBMQRVY0234&url=",
+            "ext": {
+                "flag": [
+                    "qq",
+                    "腾讯",
+                    "qiyi",
+                    "爱奇艺",
+                    "奇艺",
+                    "youku",
+                    "优酷",
+                    "tucheng",
+                    "sohu",
+                    "搜狐",
+                    "letv",
+                    "乐视",
+                    "mgtv",
+                    "芒果",
+                    "tnmb",
+                    "seven",
+                    "yzm",
+                    "aliyun",
+                    "RJuMao",
+                    "bilibili",
+                    "1905",
+                    "xinvip",
+                    "XAL",
+                    "qiqi",
+                    "XALS",
+                    "YuMi-vip"
+                ]
+            }
+        },
+        {
+            "name": "失眠的夜",
+            "type": 1,
+            "url": "http://xn--ihqu10cn4c.xn--z7x900a.live/jx.php?id=2&url=",
+            "ext": {
+                "flag": [
+                    "qq",
+                    "腾讯",
+                    "qiyi",
+                    "爱奇艺",
+                    "奇艺",
+                    "youku",
+                    "优酷",
+                    "tucheng",
+                    "sohu",
+                    "搜狐",
+                    "letv",
+                    "乐视",
+                    "mgtv",
+                    "芒果",
+                    "tnmb",
+                    "seven",
+                    "yzm",
+                    "aliyun",
+                    "RJuMao",
+                    "bilibili",
+                    "1905",
+                    "xinvip",
+                    "XAL",
+                    "qiqi",
+                    "XALS",
+                    "YuMi-vip"
+                ]
+            }
+        }
+    ],
+    "lives": [
+        {
+            "name": "live",
+            "type": 0,
+            "playerType": 1,
+            "url": "http://我不是.肥猫.live/TV/tvzb.txt",
+            "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
+            "logo": "https://epg.112114.xyz/logo/{name}.png"
+        }
+    ]
+}
