@@ -1,0 +1,711 @@
+{
+    "spider": "https://gitee.com/Qingttkx/xiaoyugan/raw/master/ys/jar/okjpg.jar",
+    "logo": "https://s1.imagehub.cc/images/2024/08/18/3abc103eb18bd9b6a2115a314eff047b.gif",
+    "wallpaper": "http://我不是.摸鱼儿.top/wallpaper/moyu.php",
+    "warningText": "失眠的夜：相遇已是心的诗篇，奈何此刻缘分断弦。",
+    "sites": [
+        {
+            "key": "豆瓣",
+            "name": "🐧｜Q群:943308204",
+            "type": 3,
+            "api": "csp_Douban",
+            "searchable": 0,
+            "changeable": 1
+        },
+        {
+            "key": "YGP",
+            "name": "📅｜更新时间8月19日",
+            "type": 3,
+            "api": "csp_YGP",
+            "searchable": 0,
+            "quickSearch": 0,
+            "changeable": 0
+        },
+        {
+            "key": "配置中心",
+            "name": "📦｜配置中心(>؂<)",
+            "type": 3,
+            "api": "csp_Config",
+            "searchable": 0,
+            "changeable": 0,
+            "indexs": 0,
+            "style": {
+                "type": "rect",
+                "ratio": 1.43
+            }
+        },
+        {
+            "key": "push_agent",
+            "name": "🐟公众号我不是摸鱼儿",
+            "type": 3,
+            "api": "csp_Push",
+            "searchable": 0,
+            "filterable": 0,
+            "changeable": 0,
+            "ext": {
+                "token": "file://TV/ali_token.txt",
+                "cookie": "file://TV/quark_cookie.txt",
+                "uc_cookie": "file://TV/uc_cookie.txt",
+                "danmu": true
+            },
+            "timeout": 5
+        },
+        {
+            "key": "玩偶",
+            "name": "🐟小鱼干4K",
+            "type": 3,
+            "api": "csp_Wogg",
+            "searchable": 1,
+            "filterable": 1,
+            "changeable": 1,
+            "ext": {
+                "token": "file://TV/ali_token.txt",
+                "cookie": "file://TV/quark_cookie.txt",
+                "uc_cookie": "file://TV/uc_cookie.txt",
+                "wogg": true
+            },
+            "timeout": 30
+        },
+        {
+            "key": "玩偶哥哥",
+            "name": "👽玩偶4K",
+            "type": 3,
+            "api": "csp_WoGG",
+            "jar": "https://gitee.com/Qingttkx/xiaoyugan/raw/master/ys/jar/fan.jar",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 0,
+            "ext": {
+                "Cloud-drive": "tvfan/Cloud-drive.txt",
+                "from": "4k|auto",
+                "siteUrl": "https://www.wogg.net/",
+                "danMu": "弹"
+            }
+        },
+        {
+            "key": "土豆4K网盘",
+            "name": "🥔土豆4K",
+            "type": 3,
+            "api": "csp_Wobg",
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 1,
+            "ext": {
+                "token": "file://TV/ali_token.txt",
+                "cookie": "file://TV/quark_cookie.txt",
+                "site": "https://tudou.lvdoui.top"
+            },
+            "timeout": 25
+        },
+        {
+            "key": "蜡笔弹幕",
+            "name": "🖍蜡笔4K",
+            "type": 3,
+            "api": "csp_Wobg",
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 1,
+            "ext": {
+                "token": "file://TV/ali_token.txt",
+                "cookie": "file://TV/quark_cookie.txt",
+                "site": "http://labipan.com",
+                "danmu": true
+            },
+            "timeout": 25
+        },
+        {
+            "key": "多多4K网盘",
+            "name": "🌥多多4K",
+            "type": 3,
+            "api": "csp_Wobg",
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 1,
+            "ext": {
+                "token": "file://TV/ali_token.txt",
+                "cookie": "file://TV/quark_cookie.txt",
+                "site": "https://tv.yydsys.top/",
+                "danmu": true
+            },
+            "timeout": 25
+        },
+        {
+            "key": "至臻4K网盘",
+            "name": "⚡至臻4K",
+            "type": 3,
+            "api": "csp_Wobg",
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 1,
+            "ext": {
+                "token": "file://TV/ali_token.txt",
+                "cookie": "file://TV/quark_cookie.txt",
+                "uc_cookie": "file://TV/uc_cookie.txt",
+                "site": "http://mpanso.com/",
+                "danmu": true
+            }
+        },
+        {
+            "key": "六趣4K网盘",
+            "name": "🍭六趣4K",
+            "type": 3,
+            "api": "csp_Wobg",
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 1,
+            "ext": {
+                "token": "file://TV/ali_token.txt",
+                "cookie": "file://TV/quark_cookie.txt",
+                "uc_cookie": "file://TV/uc_cookie.txt",
+                "site": "http://cms3.715d.com/",
+                "danmu": true
+            }
+        },
+        {
+            "key": "云星4K网盘",
+            "name": "☁️云星4K",
+            "type": 3,
+            "api": "csp_Wobg",
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 1,
+            "ext": {
+                "token": "file://TV/ali_token.txt",
+                "cookie": "file://TV/quark_cookie.txt",
+                "uc_cookie": "file://TV/uc_cookie.txt",
+                "site": "https://4k.4u4.cn/",
+                "danmu": true
+            }
+        },
+        {
+            "key": "奥秘4K网盘",
+            "name": "🍔奥秘4K",
+            "type": 3,
+            "api": "csp_Wobg",
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 1,
+            "ext": {
+                "token": "file://TV/ali_token.txt",
+                "cookie": "file://TV/quark_cookie.txt",
+                "uc_cookie": "file://TV/uc_cookie.txt",
+                "site": "https://vip.omii.top/",
+                "danmu": true
+            }
+        },
+        {
+            "key": "真心真语",
+            "name": "🤍真心4K",
+            "type": 3,
+            "api": "csp_Wogg",
+            "jar": "https://gitee.com/Qingttkx/xiaoyugan/raw/master/ys/jar/zxzy.jar",
+            "searchable": 1,
+            "changeable": 0,
+            "ext": {
+                "commonConfig": "https://pan.ly93.cc/f/Q8oVTJ/pz.json",
+                "siteUrl": "https://www.wogg.bf/",
+                "filter": "https://pan.ly93.cc/f/EoVvFL/wogg.json"
+            }
+        },
+        {
+            "key": "4K",
+            "name": "🦊超强4K",
+            "type": 3,
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "playerType": "2",
+            "api": "csp_XBPQ",
+            "jar": "https://gitee.com/Qingttkx/xiaoyugan/raw/master/ys/jar/xm.jar",
+            "ext": {
+                "请求头": "User-Agent$Mozilla/5.0 (iPhone; CPU iPhone OS 15_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Mobile/15E148 Safari/604.1",
+                "编码": "UTF-8",
+                "主页url": "https://4k-av.com",
+                "首页": "120",
+                "起始页": "1",
+                "分类url": "/{cateId}{class}/page-{catePg}.html[https://4k-av.com/{cateId}{class}];;rcS1",
+                "分类": "电影&剧集",
+                "分类值": "movie&tv",
+                "数组": "tags\">&&</a>",
+                "标题": "alt=\"&&海报",
+                "图片": "src=\"&&\"",
+                "副标题": "标签:&&</label>",
+                "链接": "href=\"&&\"",
+                "影片年代": "年份:&&</a>",
+                "影片地区": "片长:&&</label>",
+                "影片类型": "标签:&&</div>",
+                "状态": "videodetail\">&&</label>",
+                "简介": "cnline\">&&</p>",
+                "线路数组": "videoinfo\">&&</div>",
+                "线路标题": "超强影视",
+                "播放二次截取": "infomain\">&&reidnull[替换:href>>rtlist\"><img<span>第1集</span>src#poster.jpg>>\"</li></ul>]",
+                "播放数组": "rtlist\">&&</ul>",
+                "倒序": "0",
+                "播放列表": "<img&&</li>[替换:screenshot.jpg>>空]",
+                "播放标题": "<span*>&&</span>",
+                "播放链接": "src=\"&&\"",
+                "跳转播放链接": "<source src=\"&&\"",
+                "搜索请求头": "User-Agent$Mozilla/5.0 (iPhone; CPU iPhone OS 15_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Mobile/15E148 Safari/604.1",
+                "搜索url": "/s?q={wd}",
+                "搜索模式": "1",
+                "搜索标题": "title=\"&&/",
+                "搜索图片": "src=\"&&\"",
+                "搜索副标题": "标签:&&</label>",
+                "搜索链接": "href=\"&&\""
+            }
+        },
+        {
+            "key": "荐片弹幕版",
+            "name": "😺荐片蓝光",
+            "type": 3,
+            "api": "csp_Jianpian",
+            "searchable": 1,
+            "changeable": 0,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": {
+                "danmu": true
+            },
+            "timeout": 10
+        },
+        {
+            "key": "趣盘",
+            "name": "🤓趣搜4K",
+            "type": 3,
+            "api": "csp_QuPanSou",
+            "searchable": 1,
+            "filterable": 1,
+            "changeable": 0,
+            "ext": {
+                "cookie": "file://TV/quark_cookie.txt"
+            },
+            "timeout": 15
+        },
+        {
+            "key": "csp_Qkpanso",
+            "name": "🐚夸克4K",
+            "type": 3,
+            "api": "csp_Qkpanso",
+            "searchable": 1,
+            "filterable": 1,
+            "changeable": 0,
+            "ext": {
+                "cookie": "file://TV/quark_cookie.txt"
+            },
+            "timeout": 15
+        },
+        {
+            "key": "米搜",
+            "name": "🦋米搜4K",
+            "type": 3,
+            "api": "csp_MIPanSo",
+            "jar": "https://gitee.com/Qingttkx/xiaoyugan/raw/master/ys/jar/fan.jar",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 0,
+            "ext": {
+                "Cloud-drive": "tvfan/Cloud-drive.txt",
+                "from": "4k|auto"
+            }
+        },
+        {
+            "key": "抠搜",
+            "name": "🍄抠搜4K",
+            "type": 3,
+            "api": "csp_KkSs",
+            "jar": "https://gitee.com/Qingttkx/xiaoyugan/raw/master/ys/jar/fan.jar",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 0,
+            "ext": {
+                "Cloud-drive": "tvfan/Cloud-drive.txt",
+                "from": "4k|auto"
+            }
+        },
+        {
+            "key": "夸搜",
+            "name": "🐟夸搜4K",
+            "type": 3,
+            "api": "csp_PanSearch",
+            "jar": "https://gitee.com/Qingttkx/xiaoyugan/raw/master/ys/jar/fan.jar",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 0,
+            "ext": {
+                "pan": "quark",
+                "Cloud-drive": "tvfan/Cloud-drive.txt",
+                "from": "4k|auto"
+            }
+        },
+        {
+            "key": "YiSo",
+            "name": "😹易搜4K",
+            "type": 3,
+            "api": "csp_YiSo",
+            "jar": "https://gitee.com/Qingttkx/xiaoyugan/raw/master/ys/jar/fan.jar",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 0,
+            "ext": {
+                "Cloud-drive": "tvfan/Cloud-drive.txt",
+                "from": "4k|auto"
+            }
+        },
+        {
+            "key": "PanSou",
+            "name": "🦊盘搜4K",
+            "type": 3,
+            "api": "csp_PanSou",
+            "jar": "https://gitee.com/Qingttkx/xiaoyugan/raw/master/ys/jar/fan.jar",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 0,
+            "ext": {
+                "Cloud-drive": "tvfan/Cloud-drive.txt",
+                "from": "4k|auto"
+            }
+        },
+        {
+            "key": "PanSearch",
+            "name": "🙀盘Se4K",
+            "type": 3,
+            "api": "csp_PanSearch",
+            "jar": "https://gitee.com/Qingttkx/xiaoyugan/raw/master/ys/jar/fan.jar",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 0,
+            "ext": {
+                "Cloud-drive": "tvfan/Cloud-drive.txt",
+                "from": "4k|auto"
+            }
+        },
+        {
+            "key": "星剧社",
+            "name": "🛸星剧4K",
+            "type": 3,
+            "api": "csp_Star2",
+            "jar": "https://gitee.com/Qingttkx/xiaoyugan/raw/master/ys/jar/zxzy.jar",
+            "searchable": 1,
+            "filterable": 0,
+            "switchable": 0,
+            "ext": {
+                "commonConfig": "https://pan.ly93.cc/f/Q8oVTJ/pz.json"
+            }
+        },
+        {
+            "key": "盤搜索",
+            "name": "❤️真语4K",
+            "type": 3,
+            "api": "csp_PanSearch",
+            "jar": "https://gitee.com/Qingttkx/xiaoyugan/raw/master/ys/jar/zxzy.jar",
+            "searchable": 1,
+            "changeable": 0,
+            "ext": {
+                "commonConfig": "https://pan.ly93.cc/f/Q8oVTJ/pz.json"
+            }
+        },
+        {
+            "key": "TgYunPan1",
+            "name": "🏷️云盘︎4K",
+            "type": 3,
+            "api": "csp_TgYunPan",
+            "jar": "https://gitee.com/Qingttkx/xiaoyugan/raw/master/ys/jar/zxzy.jar",
+            "searchable": 1,
+            "filterable": 0,
+            "switchable": 0,
+            "ext": {
+                "siteUrl": "http://144.126.217.226:8000",
+                "channelUsername": "yunpanshare",
+                "commonConfig": "https://pan.ly93.cc/f/Q8oVTJ/pz.json"
+            }
+        },
+        {
+            "key": "TgYunPan5",
+            "name": "📰115云盘",
+            "type": 3,
+            "api": "csp_TgYunPan",
+            "jar": "https://gitee.com/Qingttkx/xiaoyugan/raw/master/ys/jar/zxzy.jar",
+            "searchable": 1,
+            "filterable": 0,
+            "switchable": 0,
+            "ext": {
+                "siteUrl": "http://144.126.217.226:8000",
+                "channelUsername": "guaguale115",
+                "commonConfig": "https://pan.ly93.cc/f/Q8oVTJ/pz.json"
+            }
+        },
+        {
+            "key": "阿里合集",
+            "name": "📁｜阿里合集",
+            "type": 3,
+            "api": "csp_AliShare",
+            "searchable": 1,
+            "changeable": 0,
+            "filterable": 0,
+            "indexs": 0,
+            "ext": {
+                "token": "file://TV/ali_token.txt",
+                "share": "file://TV/阿里集合.json"
+            },
+            "style": {
+                "type": "list"
+            },
+            "timeout": 30
+        },
+        {
+            "key": "我的阿里",
+            "name": "📁｜我的阿里",
+            "type": 3,
+            "api": "csp_MyAli",
+            "searchable": 0,
+            "quickSearch": 0,
+            "filterable": 0,
+            "indexs": 0,
+            "ext": {
+                "token": "file://TV/ali_token.txt"
+            },
+            "style": {
+                "type": "list"
+            },
+            "timeout": 30
+        },
+        {
+            "key": "我的夸克",
+            "name": "📁｜我的夸克",
+            "type": 3,
+            "api": "csp_MyQuark",
+            "searchable": 0,
+            "quickSearch": 0,
+            "filterable": 0,
+            "indexs": 0,
+            "ext": {
+                "cookie": "file://TV/quark_cookie.txt"
+            },
+            "style": {
+                "type": "list"
+            },
+            "timeout": 30
+        },
+        {
+            "key": "我的UC",
+            "name": "📁｜我的优析",
+            "type": 3,
+            "api": "csp_MyUc",
+            "searchable": 0,
+            "quickSearch": 0,
+            "filterable": 0,
+            "indexs": 0,
+            "ext": {
+                "uc_cookie": "file://TV/uc_cookie.txt"
+            },
+            "style": {
+                "type": "list"
+            },
+            "timeout": 30
+        },      
+        {
+            "key": "饭配置推送",
+            "name": "🐟接口免费维护",
+            "type": 3,
+            "api": "csp_Push",
+            "jar": "https://gitee.com/Qingttkx/xiaoyugan/raw/master/ys/jar/fan.jar",
+            "searchable": 0,
+            "quickSearch": 0,
+            "ext": {
+                "Cloud-drive": "tvfan/Cloud-drive.txt",
+                "from": "4k|auto"
+            }
+        },
+        {
+            "key": "ConfigCenter",
+            "name": "🐟公众号我不是摸鱼儿",
+            "type": 3,
+            "api": "csp_ConfigCenter",
+            "jar": "https://gitee.com/Qingttkx/xiaoyugan/raw/master/ys/jar/zxzy.jar",
+            "searchable": 0,
+            "changeable": 0,
+            "ext": {
+                "commonConfig": "https://pan.ly93.cc/f/Q8oVTJ/pz.json"
+            }
+        }
+    ],
+    "parses": [
+        {
+            "name": "Json聚合",
+            "type": 3,
+            "url": "Demo"
+        },
+        {
+            "name": "Web聚合",
+            "type": 3,
+            "url": "Web"
+        },
+        {
+            "name": "小鱼干无敌",
+            "type": 1,
+            "url": "https://cdn.suxun.site/api/?key=7QeqS18ZCrJgj0BSOn&url=",
+            "ext": {
+                "flag": [
+                    "qq",
+                    "腾讯",
+                    "qiyi",
+                    "爱奇艺",
+                    "奇艺",
+                    "youku",
+                    "优酷",
+                    "sohu",
+                    "搜狐",
+                    "letv",
+                    "乐视",
+                    "mgtv",
+                    "芒果",
+                    "tnmb",
+                    "seven",
+                    "bilibili",
+                    "1905"
+                ],
+                "header": {
+                    "User-Agent": "okhttp/4.9.1"
+                }
+            }
+        },
+        {
+            "name": "小鱼干无敌2",
+            "type": 1,
+            "url": "http://117.50.183.202:8036/?ip=111.55.12.236&url=",
+            "ext": {
+                "flag": [
+                    "qq",
+                    "腾讯",
+                    "qiyi",
+                    "爱奇艺",
+                    "奇艺",
+                    "youku",
+                    "优酷",
+                    "sohu",
+                    "搜狐",
+                    "letv",
+                    "乐视",
+                    "mgtv",
+                    "芒果",
+                    "tnmb",
+                    "seven",
+                    "bilibili",
+                    "1905"
+                ],
+                "header": {
+                    "User-Agent": "okhttp/4.9.1"
+                }
+            }
+        },
+        {
+            "name": "腾4K",
+            "type": 1,
+            "url": "http://www.mpanso.com/woaini.php?url=",
+            "ext": {
+                "flag": [
+                    "qq",
+                    "腾讯",
+                    "qiyi",
+                    "爱奇艺",
+                    "奇艺",
+                    "youku",
+                    "优酷",
+                    "sohu",
+                    "搜狐",
+                    "letv",
+                    "乐视",
+                    "mgtv",
+                    "芒果",
+                    "tnmb",
+                    "seven",
+                    "bilibili",
+                    "1905"
+                ],
+                "header": {
+                    "User-Agent": "okhttp/4.9.1"
+                }
+            }
+        },
+        {
+            "name": "公众号：我不是摸鱼儿",
+            "type": 1,
+            "url": "http://json.84jia.com/home/api?type=ys&uid=335253&key=demprsyzBMQRVY0234&url=",
+            "ext": {
+                "flag": [
+                    "qq",
+                    "腾讯",
+                    "qiyi",
+                    "爱奇艺",
+                    "奇艺",
+                    "youku",
+                    "优酷",
+                    "tucheng",
+                    "sohu",
+                    "搜狐",
+                    "letv",
+                    "乐视",
+                    "mgtv",
+                    "芒果",
+                    "tnmb",
+                    "seven",
+                    "yzm",
+                    "aliyun",
+                    "RJuMao",
+                    "bilibili",
+                    "1905",
+                    "xinvip",
+                    "XAL",
+                    "qiqi",
+                    "XALS",
+                    "YuMi-vip"
+                ]
+            }
+        },
+        {
+            "name": "失眠的夜",
+            "type": 1,
+            "url": "http://xn--ihqu10cn4c.xn--z7x900a.live/jx.php?id=2&url=",
+            "ext": {
+                "flag": [
+                    "qq",
+                    "腾讯",
+                    "qiyi",
+                    "爱奇艺",
+                    "奇艺",
+                    "youku",
+                    "优酷",
+                    "tucheng",
+                    "sohu",
+                    "搜狐",
+                    "letv",
+                    "乐视",
+                    "mgtv",
+                    "芒果",
+                    "tnmb",
+                    "seven",
+                    "yzm",
+                    "aliyun",
+                    "RJuMao",
+                    "bilibili",
+                    "1905",
+                    "xinvip",
+                    "XAL",
+                    "qiqi",
+                    "XALS",
+                    "YuMi-vip"
+                ]
+            }
+        }
+    ],
+    "lives": [
+        {
+            "name": "live",
+            "type": 0,
+            "playerType": 1,
+            "url": "http://我不是.肥猫.live/TV/tvzb.txt",
+            "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
+            "logo": "https://epg.112114.xyz/logo/{name}.png"
+        }
+    ]
+}
