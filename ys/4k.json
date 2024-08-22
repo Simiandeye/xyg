@@ -242,7 +242,7 @@
         },
         {
             "key": "腾讯",
-            "name": "🐧腾讯4K",
+            "name": "🐧腾腾4K",
             "type": 3,
             "api": "https://gitee.com/Qingttkx/xiaoyugan/raw/master/ys/libs/drpy2.min.js",
             "searchable": 1,
@@ -252,7 +252,7 @@
         },
         {
             "key": "芒果",
-            "name": "🥭芒果4K",
+            "name": "🥭芒芒4K",
             "type": 3,
             "api": "https://gitee.com/Qingttkx/xiaoyugan/raw/master/ys/libs/drpy2.min.js",
             "searchable": 1,
@@ -604,7 +604,7 @@
         {
             "name": "公众号我不是摸鱼儿(๑>؂<๑)",
             "type": 1,
-            "url": "http://追觅.摸鱼儿.com/api/?key=LWPt087igdzSgR9U2y&url=",
+            "url": "http://追觅.摸鱼儿.com/api/?key=gQUsuHj2yhzaklDVtY&url=",
             "ext": {
                 "flag": [
                     "qq",
