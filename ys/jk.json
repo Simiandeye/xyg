@@ -325,7 +325,7 @@
         },
         {
             "key": "哔哩哔哩",
-            "name": "🅱哔哔lg｜解析",
+            "name": "🅱哔哔｜解析",
             "type": 3,
             "api": "https://gitee.com/Qingttkx/xiaoyugan/raw/master/ys/libs/drpy2.min.js",
             "searchable": 1,
@@ -335,7 +335,7 @@
         },
         {
             "key": "酷看弹幕版",
-            "name": "👓酷看蓝光",
+            "name": "👓酷看｜蓝光",
             "type": 3,
             "api": "csp_Kkys",
             "searchable": 1,
@@ -348,7 +348,7 @@
         },
         {
             "key": "文采",
-            "name": "🖊︎文采蓝光",
+            "name": "🖊︎文采｜蓝光",
             "type": 3,
             "api": "csp_Jpys",
             "jar": "https://gitee.com/Qingttkx/xiaoyugan/raw/master/ys/jar/fan.jar",
@@ -359,7 +359,7 @@
         },
         {
             "key": "可可",
-            "name": "🩹可可蓝光",
+            "name": "🩹可可｜蓝光",
             "type": 3,
             "api": "csp_Kekys",
             "jar": "https://gitee.com/Qingttkx/xiaoyugan/raw/master/ys/jar/fan.jar",
@@ -371,7 +371,7 @@
         },
         {
             "key": "南瓜弹幕版",
-            "name": "🎃南瓜蓝光",
+            "name": "🎃南瓜｜蓝光",
             "type": 3,
             "api": "csp_Nangua",
             "searchable": 1,
@@ -384,7 +384,7 @@
         },
         {
             "key": "韩圈",
-            "name": "🇰🇷韩剧蓝光",
+            "name": "🇰🇷韩剧｜蓝光",
             "type": 3,
             "api": "csp_HanXiaoQuan",
             "playerType": 2,
@@ -395,7 +395,7 @@
         },
         {
             "key": "厂长",
-            "name": "🏭厂长蓝光",
+            "name": "🏭厂长｜蓝光",
             "type": 3,
             "api": "csp_Czzy",
             "searchable": 1,
@@ -405,7 +405,7 @@
         },
         {
             "key": "荐片弹幕版",
-            "name": "🐺荐片蓝光",
+            "name": "🐺荐片｜蓝光",
             "type": 3,
             "api": "csp_Jianpian",
             "searchable": 1,
@@ -419,7 +419,7 @@
         },
         {
             "key": "JOJO弹幕版",
-            "name": "🦍JOJO蓝光",
+            "name": "🦍啾啾｜蓝光",
             "type": 3,
             "api": "csp_Jiohub",
             "searchable": 1,
@@ -432,7 +432,7 @@
         },
         {
             "key": "️爱看Bot弹幕版",
-            "name": "❤️爱看蓝光",
+            "name": "❤️爱看｜蓝光",
             "type": 3,
             "api": "csp_Ikanbot",
             "searchable": 1,
@@ -445,7 +445,7 @@
         },
         {
             "key": "云星1080",
-            "name": "☁️云星蓝光",
+            "name": "☁️云星｜蓝光",
             "type": 3,
             "api": "csp_AppYsV2",
             "searchable": 1,
@@ -456,7 +456,7 @@
         },
         {
             "key": "天天弹幕版",
-            "name": "🐭天天蓝光",
+            "name": "🐭天天｜蓝光",
             "type": 3,
             "api": "csp_TianTian",
             "searchable": 1,
@@ -469,7 +469,7 @@
         },
         {
             "key": "mgdh",
-            "name": "🎨动画蓝光",
+            "name": "🎨动画｜蓝光",
             "type": 3,
             "api": "http://cdn.teyonds.com/js/drpy2.min.js",
             "searchable": 1,
@@ -479,7 +479,7 @@
         },
         {
             "key": "yhdm",
-            "name": "🌸樱花蓝光",
+            "name": "🌸樱花｜蓝光",
             "type": 3,
             "api": "csp_Ying",
             "searchable": 1,
@@ -489,7 +489,7 @@
         },
         {
             "key": "动漫巴士",
-            "name": "🚍巴士蓝光",
+            "name": "🚍巴士｜蓝光",
             "type": 3,
             "api": "csp_Dm84",
             "searchable": 1,
@@ -499,7 +499,7 @@
         },
         {
             "key": "新6V",
-            "name": "🐱新6V蓝光",
+            "name": "🐱新6V｜蓝光",
             "type": 3,
             "api": "csp_Xb6v",
             "searchable": 1,
