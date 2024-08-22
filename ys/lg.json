@@ -1,0 +1,452 @@
+{
+    "spider": "https://gitee.com/Qingttkx/xiaoyugan/raw/master/ys/jar/okjpg.jar",
+    "logo": "https://gitee.com/Qingttkx/xiaoyugan/raw/master/ys/logo/xx.gif",
+    "wallpaper": "http://我不是.摸鱼儿.top/wallpaper/moyu.php",
+    "warningText": "失眠的夜：相遇已是心的诗篇，奈何此刻缘分断弦。",
+    "lives": [
+        {
+            "name": "live",
+            "type": 0,
+            "playerType": 1,
+            "url": "http://我不是.肥猫.live/TV/tvzb.txt",
+            "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
+            "logo": "https://epg.112114.xyz/logo/{name}.png"
+        }
+    ],
+    "sites": [
+        {
+            "key": "豆瓣",
+            "name": "🐟｜小鱼干(๑>؂<๑)",
+            "type": 3,
+            "api": "csp_Douban",
+            "searchable": 0,
+            "changeable": 1
+        },
+        {
+            "key": "YGP",
+            "name": "📅｜更新时间8月22日",
+            "type": 3,
+            "api": "csp_YGP",
+            "searchable": 0,
+            "quickSearch": 0,
+            "changeable": 0
+        },
+        {
+            "key": "玩偶OK",
+            "name": "🐟小鱼4K弹幕",
+            "type": 3,
+            "api": "csp_Wogg",
+            "searchable": 1,
+            "filterable": 1,
+            "changeable": 1,
+            "ext": {
+                "token": "file://TV/ali_token.txt",
+                "cookie": "file://TV/quark_cookie.txt",
+                "uc_cookie": "file://TV/uc_cookie.txt",
+                "wogg": true
+            },
+            "timeout": 30
+        },
+        {
+            "key": "玩偶饭",
+            "name": "👽玩偶4K智能",
+            "type": 3,
+            "api": "csp_WoGG",
+            "jar": "https://gitee.com/Qingttkx/xiaoyugan/raw/master/ys/jar/fan.jar",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 0,
+            "ext": {
+                "Cloud-drive": "tvfan/Cloud-drive.txt",
+                "from": "4k|auto",
+                "siteUrl": "https://www.wogg.net/",
+                "danMu": "弹"
+            }
+        },
+        {
+            "key": "腾讯",
+            "name": "🐧腾讯解析",
+            "type": 3,
+            "api": "https://gitee.com/Qingttkx/xiaoyugan/raw/master/ys/libs/drpy2.min.js",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "https://gitee.com/Qingttkx/xiaoyugan/raw/master/ys/js/tx.js"
+        },
+        {
+            "key": "芒果",
+            "name": "🥭芒果解析",
+            "type": 3,
+            "api": "https://gitee.com/Qingttkx/xiaoyugan/raw/master/ys/libs/drpy2.min.js",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "https://gitee.com/Qingttkx/xiaoyugan/raw/master/ys/js/芒果.js"
+        },
+        {
+            "key": "菜狗",
+            "name": "🐶菜狗解析",
+            "type": 3,
+            "api": "https://gitee.com/Qingttkx/xiaoyugan/raw/master/ys/libs/drpy2.min.js",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "https://gitee.com/Qingttkx/xiaoyugan/raw/master/ys/js/菜狗.js"
+        },
+        {
+            "key": "4K",
+            "name": "✨采集解析",
+            "playerType": 1,
+            "type": 3,
+            "api": "csp_AppYsV2",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "http://122.228.85.203:3366/api.php/app/"
+        },
+        {
+            "key": "666",
+            "name": "🫐蓝光解析",
+            "playerType": 1,
+            "type": 3,
+            "api": "csp_AppYsV2",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "http://122.228.85.203:1000/api.php/app/"
+        },
+        {
+            "key": "影酷",
+            "name": "😼影酷解析",
+            "playerType": 1,
+            "type": 3,
+            "api": "csp_AppYsV2",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "http://111.173.115.204:5566/api.php/app/"
+        },
+        {
+            "key": "云jx",
+            "name": "☁️腾云驾雾",
+            "type": 3,
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "jar": "http://我不是.摸鱼儿.top/by/jar/xpbq.php",
+            "playerType": "2",
+            "api": "csp_XBPQ",
+            "ext": "http://我不是.摸鱼儿.top/api/moyu.php?file=腾云驾雾"
+        },
+        {
+            "key": "测试",
+            "name": "🍱六趣解析",
+            "playerType": 1,
+            "type": 3,
+            "api": "csp_AppYsV2",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "http://43.136.41.222:9999/api.php/app/"
+        },
+        {
+            "key": "哔哩哔哩",
+            "name": "🅱哔哩解析",
+            "type": 3,
+            "api": "https://gitee.com/Qingttkx/xiaoyugan/raw/master/ys/libs/drpy2.min.js",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "https://gitee.com/Qingttkx/xiaoyugan/raw/master/ys/js/哔哩.js"
+        },
+        {
+            "key": "酷看弹幕版",
+            "name": "👓酷看蓝光",
+            "type": 3,
+            "api": "csp_Kkys",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": {
+                "danmu": true
+            },
+            "timeout": 10
+        },
+        {
+            "key": "文采",
+            "name": "🖊︎文采蓝光",
+            "type": 3,
+            "api": "csp_Jpys",
+            "jar": "https://gitee.com/Qingttkx/xiaoyugan/raw/master/ys/jar/fan.jar",
+            "playerType": 2,
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1
+        },
+        {
+            "key": "可可",
+            "name": "🩹可可蓝光",
+            "type": 3,
+            "api": "csp_Kekys",
+            "jar": "https://gitee.com/Qingttkx/xiaoyugan/raw/master/ys/jar/fan.jar",
+            "timeout": 15,
+            "playerType": 2,
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1
+        },
+        {
+            "key": "南瓜弹幕版",
+            "name": "🎃南瓜蓝光",
+            "type": 3,
+            "api": "csp_Nangua",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": {
+                "danmu": true
+            },
+            "timeout": 10
+        },
+        {
+            "key": "韩圈",
+            "name": "🇰🇷韩剧蓝光",
+            "type": 3,
+            "api": "csp_HanXiaoQuan",
+            "playerType": 2,
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "timeout": 10
+        },
+        {
+            "key": "厂长",
+            "name": "🏭厂长蓝光",
+            "type": 3,
+            "api": "csp_Czzy",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "timeout": 10
+        },
+        {
+            "key": "荐片弹幕版",
+            "name": "🐺荐片蓝光",
+            "type": 3,
+            "api": "csp_Jianpian",
+            "searchable": 1,
+            "changeable": 0,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": {
+                "danmu": true
+            },
+            "timeout": 10
+        },
+        {
+            "key": "JOJO弹幕版",
+            "name": "🦍JOJO蓝光",
+            "type": 3,
+            "api": "csp_Jiohub",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": {
+                "danmu": true
+            },
+            "timeout": 10
+        },
+        {
+            "key": "️爱看Bot弹幕版",
+            "name": "❤️爱看蓝光",
+            "type": 3,
+            "api": "csp_Ikanbot",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": {
+                "danmu": true
+            },
+            "timeout": 10
+        },
+        {
+            "key": "云星1080",
+            "name": "☁️云星蓝光",
+            "type": 3,
+            "api": "csp_AppYsV2",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "http://cms.4u4.cn/api.php/app/",
+            "jar": "https://8704.kstore.space/jar/云星蓝光0725.jar"
+        },
+        {
+            "key": "天天弹幕版",
+            "name": "🐭天天蓝光",
+            "type": 3,
+            "api": "csp_TianTian",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": {
+                "danmu": true
+            },
+            "timeout": 10
+        },
+        {
+            "key": "mgdh",
+            "name": "🎨动画蓝光",
+            "type": 3,
+            "api": "http://cdn.teyonds.com/js/drpy2.min.js",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "http://cdn.teyonds.com/js/芒果动画.js"
+        },
+        {
+            "key": "yhdm",
+            "name": "🌸樱花蓝光",
+            "type": 3,
+            "api": "csp_Ying",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "timeout": 15
+        },
+        {
+            "key": "动漫巴士",
+            "name": "🚍巴士蓝光",
+            "type": 3,
+            "api": "csp_Dm84",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "timeout": 10
+        },
+        {
+            "key": "新6V",
+            "name": "🐱新6V蓝光",
+            "type": 3,
+            "api": "csp_Xb6v",
+            "searchable": 1,
+            "changeable": 0,
+            "timeout": 20
+        },
+        {
+            "key": "无忧短剧",
+            "name": "🐟无忧短剧",
+            "type": 3,
+            "api": "csp_Duanj",
+            "searchable": 1,
+            "changeable": 0,
+            "style": {
+                "type": "rect",
+                "ratio": 1.433
+            },
+            "timeout": 10
+        },
+        {
+            "key": "在线短剧",
+            "name": "🐟在线短剧",
+            "type": 3,
+            "api": "csp_Duanju",
+            "searchable": 1,
+            "changeable": 0,
+            "style": {
+                "type": "rect",
+                "ratio": 1.433
+            },
+            "timeout": 10
+        },
+        {
+            "key": "bili",
+            "name": "🅱哔哔┃合集",
+            "type": 3,
+            "api": "csp_Bili",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "style": {
+                "type": "rect",
+                "ratio": 1.433
+            },
+            "ext": {
+                "cookie": "file://TV/bili_cookie.txt",
+                "json": "https://gitee.com/okjack/okk/raw/master/bili.json"
+            },
+            "timeout": 20
+        },
+        {
+            "key": "biliych",
+            "name": "🅱哔哔┃歌曲",
+            "type": 3,
+            "api": "csp_Bili",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "style": {
+                "type": "rect",
+                "ratio": 1.433
+            },
+            "ext": {
+                "cookie": "file://TV/bili_cookie.txt",
+                "json": "https://gitee.com/okjack/okk/raw/master/biliych.json"
+            },
+            "timeout": 20
+        }
+    ],
+    "parses": [
+        {
+            "name": "Json聚合",
+            "type": 3,
+            "url": "Demo"
+        },
+        {
+            "name": "Web聚合",
+            "type": 3,
+            "url": "Web"
+        },
+        {
+            "name": "公众号我不是摸鱼儿(๑>؂<๑)",
+            "type": 1,
+            "url": "http://追觅.摸鱼儿.com/api/?key=6eP4qXcln70Rn3nzJG&url=",
+            "ext": {
+                "flag": [
+                    "qq",
+                    "腾讯",
+                    "qiyi",
+                    "爱奇艺",
+                    "奇艺",
+                    "youku",
+                    "优酷",
+                    "tucheng",
+                    "sohu",
+                    "搜狐",
+                    "letv",
+                    "乐视",
+                    "mgtv",
+                    "芒果",
+                    "rx",
+                    "tnmb",
+                    "seven",
+                    "yzm",
+                    "aliyun",
+                    "RJuMao",
+                    "bilibili",
+                    "1905",
+                    "xinvip",
+                    "XAL",
+                    "qiqi",
+                    "XALS",
+                    "YuMi-vip",
+                    "ltnb",
+                    "rrmj",
+                    "gzsp",
+                    "xigua",
+                    "ST4K",
+                    "NBY"
+                ]
+            }
+        }
+    ]
+}
