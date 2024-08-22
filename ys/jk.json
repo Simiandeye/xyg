@@ -251,7 +251,7 @@
         },
         {
             "key": "腾讯",
-            "name": "🐧腾讯解析",
+            "name": "🐧腾腾4k｜解析",
             "type": 3,
             "api": "https://gitee.com/Qingttkx/xiaoyugan/raw/master/ys/libs/drpy2.min.js",
             "searchable": 1,
@@ -261,7 +261,7 @@
         },
         {
             "key": "芒果",
-            "name": "🥭芒果解析",
+            "name": "🥭芒芒4k｜解析",
             "type": 3,
             "api": "https://gitee.com/Qingttkx/xiaoyugan/raw/master/ys/libs/drpy2.min.js",
             "searchable": 1,
@@ -271,7 +271,7 @@
         },
         {
             "key": "菜狗",
-            "name": "🐶菜狗解析",
+            "name": "🐶菜狗4k｜解析",
             "type": 3,
             "api": "https://gitee.com/Qingttkx/xiaoyugan/raw/master/ys/libs/drpy2.min.js",
             "searchable": 1,
@@ -281,7 +281,7 @@
         },
         {
             "key": "4K",
-            "name": "✨采集解析",
+            "name": "✨采集4k｜解析",
             "playerType": 1,
             "type": 3,
             "api": "csp_AppYsV2",
@@ -292,7 +292,7 @@
         },
         {
             "key": "666",
-            "name": "🫐蓝光解析",
+            "name": "🫐蓝光4k｜解析",
             "playerType": 1,
             "type": 3,
             "api": "csp_AppYsV2",
@@ -303,7 +303,7 @@
         },
         {
             "key": "影酷",
-            "name": "😼影酷解析",
+            "name": "😼影酷4k｜解析",
             "playerType": 1,
             "type": 3,
             "api": "csp_AppYsV2",
@@ -313,20 +313,8 @@
             "ext": "http://111.173.115.204:5566/api.php/app/"
         },
         {
-            "key": "云jx",
-            "name": "☁️腾云驾雾",
-            "type": 3,
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 1,
-            "jar": "http://我不是.摸鱼儿.top/by/jar/xpbq.php",
-            "playerType": "2",
-            "api": "csp_XBPQ",
-            "ext": "http://我不是.摸鱼儿.top/api/moyu.php?file=腾云驾雾"
-        },
-        {
             "key": "测试",
-            "name": "🍱六趣解析",
+            "name": "🍱六趣4k｜解析",
             "playerType": 1,
             "type": 3,
             "api": "csp_AppYsV2",
@@ -337,7 +325,7 @@
         },
         {
             "key": "哔哩哔哩",
-            "name": "🅱哔哩解析",
+            "name": "🅱哔哔lg｜解析",
             "type": 3,
             "api": "https://gitee.com/Qingttkx/xiaoyugan/raw/master/ys/libs/drpy2.min.js",
             "searchable": 1,
