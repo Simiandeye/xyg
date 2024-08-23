@@ -224,6 +224,17 @@
             }
         },
         {
+        "key": "测压已通过",
+      "name": "🌟追觅4K",
+      "playerType": 1,
+      "type": 3,
+      "api": "csp_AppYsV2",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "http://ly4k.llys.online/api.php/app/"
+        },
+        {
             "key": "腾云驾雾",
             "name": "🐧腾腾4K",
             "type": 3,
