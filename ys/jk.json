@@ -233,6 +233,17 @@
                 "filter": "https://gitee.com/Qingttkx/xiaoyugan/raw/master/ys/json/wogg.json"
             }
         },
+         {
+      "key": "测压已通过",
+      "name": "🌟摸鱼追觅┃4K解析",
+      "playerType": 1,
+      "type": 3,
+      "api": "csp_AppYsV2",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "http://ly4k.llys.online/api.php/app/"
+    },
         {
             "key": "腾云驾雾",
             "name": "🐧腾腾4k｜解析",
