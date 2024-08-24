@@ -235,7 +235,7 @@
         },
          {
       "key": "测压已通过",
-      "name": "🌟摸鱼追觅┃4K解析",
+      "name": "🌟摸鱼4k｜解析",
       "playerType": 1,
       "type": 3,
       "api": "csp_AppYsV2",
@@ -252,7 +252,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "https://gitee.com/Qingttkx/xiaoyugan/raw/master/ys/js/tyjw.js"
+            "ext": "https://gitee.com/Qingttkx/xiaoyugan/raw/master/ys/js/腾云驾雾.js"
         },
         {
             "key": "百忙无果",
@@ -262,7 +262,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "https://gitee.com/Qingttkx/xiaoyugan/raw/master/ys/js/芒果.js"
+            "ext": "https://gitee.com/Qingttkx/xiaoyugan/raw/master/ys/js/百忙无果.js"
         },
         {
             "key": "菜狗",
@@ -272,7 +272,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "https://gitee.com/Qingttkx/xiaoyugan/raw/master/ys/js/菜狗.js"
+            "ext": "https://gitee.com/Qingttkx/xiaoyugan/raw/master/ys/js/菜狗视频.js"
         },
         {
             "key": "4K",
@@ -319,6 +319,26 @@
             "ext": "http://43.136.41.222:9999/api.php/app/"
         },
         {
+            "key": "奇异果果",
+            "name": "🥝奇异｜解析",
+            "type": 3,
+            "api": "https://gitee.com/Qingttkx/xiaoyugan/raw/master/ys/libs/drpy2.min.js",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "https://gitee.com/Qingttkx/xiaoyugan/raw/master/ys/js/奇异果果.js"
+        },
+        {
+            "key": "裤子破破",
+            "name": "👖裤子｜解析",
+            "type": 3,
+            "api": "https://gitee.com/Qingttkx/xiaoyugan/raw/master/ys/libs/drpy2.min.js",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "https://gitee.com/Qingttkx/xiaoyugan/raw/master/ys/js/裤子破破.js"
+        },
+        {
             "key": "哔哩哔哩",
             "name": "🅱哔哔｜解析",
             "type": 3,
@@ -326,7 +346,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "https://gitee.com/Qingttkx/xiaoyugan/raw/master/ys/js/哔哩.js"
+            "ext": "https://gitee.com/Qingttkx/xiaoyugan/raw/master/ys/js/哔哩哔哩.js"
         },
         {
             "key": "酷看弹幕版",
@@ -848,6 +868,62 @@
                     "ST4K",
                     "NBY"
                 ]
+            }
+        },
+        {
+            "name": "六趣-4k解析",
+            "type": 1,
+            "url": "https://jx.6qu.cc/api/?key=EIeLEijlRzB3eESSbn&url=",
+            "ext": {
+                "flag": [
+                    "qq",
+                    "腾讯",
+                    "qiyi",
+                    "爱奇艺",
+                    "奇艺",
+                    "youku",
+                    "优酷",
+                    "sohu",
+                    "搜狐",
+                    "letv",
+                    "乐视",
+                    "mgtv",
+                    "芒果",
+                    "rx",
+                    "ltnb",
+                    "bilibili",
+                    "1905",
+                    "rrmj",
+                    "xigua",
+                    "ST4K",
+                    "ETH-XDA1",
+                    "xiong",
+                    "NBY",
+                    "mytv",
+                    "BBA"
+                ]
+            }
+        },
+        {
+            "name": "①蓝光解析",
+            "type": "1",
+            "url": "http://110.42.7.182:881/api/?key=qEDfo9v5Uk48DVmu6W&url=",
+            "flag": [
+                "m78"
+            ],
+            "header": {
+                "User-Agent": "Dalvik/2.1.0"
+            }
+        },
+        {
+            "name": "②蓝光解析",
+            "type": "1",
+            "url": "http://zy.uiovo.com/api/?key=951b4ca48d0f8c77cd8ebbc2e784c441&ud=105&url=",
+            "flag": [
+                "mgtv"
+            ],
+            "header": {
+                "User-Agent": "Dalvik/2.1.0"
             }
         }
     ]
