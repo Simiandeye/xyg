@@ -1,0 +1,539 @@
+{
+    "spider": "http://z.jwl.icu/spider.jar",
+    "logo": "http://z.jwl.icu/logo/xyg.gif",
+    "wallpaper": "http://我不是.摸鱼儿.top/wallpaper/moyu.php",
+    "warningText": "失眠的夜：相遇已是心的诗篇，奈何此刻缘分断弦。",
+    "sites": [
+        {
+            "key": "豆瓣",
+            "name": "🐟｜小鱼干4K接口",
+            "type": 3,
+            "api": "csp_Douban",
+            "searchable": 0,
+            "changeable": 1
+        },
+        {
+            "key": "YGP",
+            "name": "📅｜更新时间9月9日",
+            "type": 3,
+            "api": "csp_YGP",
+            "jar": "http://z.jwl.icu/xyg.jar",
+            "searchable": 0,
+            "quickSearch": 0,
+            "changeable": 0
+        },
+        {
+            "key": "配置中心",
+            "name": "📦｜配置中心(>؂<)",
+            "type": 3,
+            "api": "csp_Config",
+            "searchable": 0,
+            "changeable": 0,
+            "indexs": 0,
+            "style": {
+                "type": "rect",
+                "ratio": 1.43
+            }
+        },
+        {
+            "key": "push_agent",
+            "name": "🐟公众号吃掉小鱼干",
+            "type": 3,
+            "api": "csp_Push",
+            "searchable": 0,
+            "filterable": 0,
+            "changeable": 0,
+            "ext": {
+                "token": "file://TV/ali_token.txt",
+                "cookie": "file://TV/quark_cookie.txt",
+                "uc_cookie": "file://TV/uc_cookie.txt",
+                "danmu": true
+            },
+            "timeout": 5
+        },
+        {
+            "key": "小鱼玩偶",
+            "name": "🐟小鱼4K",
+            "type": 3,
+            "api": "csp_Wogg",
+            "searchable": 1,
+            "filterable": 1,
+            "changeable": 1,
+            "ext": {
+                "token": "file://TV/ali_token.txt",
+                "cookie": "file://TV/quark_cookie.txt",
+                "uc_cookie": "file://TV/uc_cookie.txt",
+                "wogg": true
+            },
+            "timeout": 30
+        },
+        {
+            "key": "玩偶哥哥",
+            "name": "👽玩偶4K",
+            "type": 3,
+            "api": "csp_WoGG",
+            "jar": "http://z.jwl.icu/xyg.jar",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 0,
+            "ext": {
+                "Cloud-drive": "tvfan/Cloud-drive.txt",
+                "from": "4k|auto",
+                "siteUrl": "https://www.wogg.net/",
+                "danMu": "弹"
+            }
+        },
+        {
+            "key": "蜡笔小新",
+            "name": "🖍蜡笔4K",
+            "type": 3,
+            "api": "csp_Wobg",
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 1,
+            "ext": {
+                "token": "file://TV/ali_token.txt",
+                "cookie": "file://TV/quark_cookie.txt",
+                "site": "http://labipan.com",
+                "danmu": true
+            },
+            "timeout": 25
+        },
+        {
+            "key": "多多影音",
+            "name": "🌥多多4K",
+            "type": 3,
+            "api": "csp_Wobg",
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 1,
+            "ext": {
+                "token": "file://TV/ali_token.txt",
+                "cookie": "file://TV/quark_cookie.txt",
+                "site": "https://tv.yydsys.cc/",
+                "danmu": true
+            },
+            "timeout": 25
+        },
+        {
+            "key": "至臻影视",
+            "name": "⚡至臻4K",
+            "type": 3,
+            "api": "csp_Wobg",
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 1,
+            "ext": {
+                "token": "file://TV/ali_token.txt",
+                "cookie": "file://TV/quark_cookie.txt",
+                "uc_cookie": "file://TV/uc_cookie.txt",
+                "site": "http://mpanso.com/",
+                "danmu": true
+            }
+        },
+        {
+            "key": "木偶哥哥",
+            "name": "🪵木偶4K",
+            "type": 3,
+            "api": "csp_Wobg",
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 1,
+            "ext": {
+                "token": "file://TV/ali_token.txt",
+                "cookie": "file://TV/quark_cookie.txt",
+                "uc_cookie": "file://TV/uc_cookie.txt",
+                "site": "http://mogg.top",
+                "danmu": true
+            }
+        },
+        {
+            "key": "六趣资源",
+            "name": "🍭六趣4K",
+            "type": 3,
+            "api": "csp_Wobg",
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 1,
+            "ext": {
+                "token": "file://TV/ali_token.txt",
+                "cookie": "file://TV/quark_cookie.txt",
+                "uc_cookie": "file://TV/uc_cookie.txt",
+                "site": "http://43.136.41.222:2333/",
+                "danmu": true
+            }
+        },
+        {
+            "key": "云星日记",
+            "name": "☁️云星4K",
+            "type": 3,
+            "api": "csp_Wobg",
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 1,
+            "ext": {
+                "token": "file://TV/ali_token.txt",
+                "cookie": "file://TV/quark_cookie.txt",
+                "uc_cookie": "file://TV/uc_cookie.txt",
+                "site": "https://4k.4u4.cn/",
+                "danmu": true
+            }
+        },
+        {
+            "key": "奥秘影视",
+            "name": "🍔奥秘4K",
+            "type": 3,
+            "api": "csp_Wobg",
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 1,
+            "ext": {
+                "token": "file://TV/ali_token.txt",
+                "cookie": "file://TV/quark_cookie.txt",
+                "uc_cookie": "file://TV/uc_cookie.txt",
+                "site": "https://vip.omii.top/",
+                "danmu": true
+            }
+        },
+        {
+            "key": "团长夸克",
+            "name": "🏳️团长4K",
+            "type": 3,
+            "api": "csp_Tzfile",
+            "searchable": 1,
+            "filterable": 1,
+            "changeable": 1,
+            "ext": {
+                "token": "file://TV/ali_token.txt",
+                "cookie": "file://TV/quark_cookie.txt",
+                "uc_cookie": "file://TV/uc_cookie.txt",
+                "danmu": true
+            },
+            "timeout": 25
+        },
+        {
+            "key": "六维影视",
+            "name": "🧲六维4K",
+            "type": 3,
+            "api": "csp_Xb6v",
+            "searchable": 1,
+            "changeable": 0,
+            "timeout": 20
+        },
+        {
+            "key": "小鱼内测1",
+            "name": "🌪明月4K",
+            "playerType": 1,
+            "type": 3,
+            "api": "csp_AppYsV2",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "http://122.228.85.203:1000/api.php/app/"
+        },
+        {
+            "key": "小鱼内测2",
+            "name": "🌞浅墨4K",
+            "playerType": 1,
+            "type": 3,
+            "api": "csp_AppYsV2",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "http://110.40.61.7:81/api.php/app/"
+        },
+        {
+            "key": "小鱼内测3",
+            "name": "🌟追觅4K",
+            "playerType": 1,
+            "type": 3,
+            "api": "csp_AppYsV2",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "http://111.173.115.204:2211/api.php/app/"
+        },
+        {
+            "key": "百忙无果",
+            "name": "🥭果果4K",
+            "type": 3,
+            "api": "http://z.jwl.icu/lib/drpy.min.js",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "http://z.jwl.icu/js/百忙无果.js"
+        },
+        {
+            "key": "瓜子影视",
+            "name": "🍉瓜子2K",
+            "type": 3,
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "api": "http://z.jwl.icu/lib/drpy.min.js",
+            "ext": "http://z.jwl.icu/js/瓜子.js",
+            "timeout": 15
+        },
+        {
+            "key": "趣盘夸克",
+            "name": "🤓趣搜4K",
+            "type": 3,
+            "api": "csp_QuPanSou",
+            "searchable": 1,
+            "filterable": 1,
+            "changeable": 0,
+            "ext": {
+                "cookie": "file://TV/quark_cookie.txt"
+            },
+            "timeout": 15
+        },
+        {
+            "key": "夸克资源",
+            "name": "🐚夸克4K",
+            "type": 3,
+            "api": "csp_Qkpanso",
+            "searchable": 1,
+            "filterable": 1,
+            "changeable": 0,
+            "ext": {
+                "cookie": "file://TV/quark_cookie.txt"
+            },
+            "timeout": 15
+        },
+        {
+            "key": "米搜资源",
+            "name": "🦋米搜4K",
+            "type": 3,
+            "api": "csp_MIPanSo",
+            "jar": "http://z.jwl.icu/xyg.jar",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 0,
+            "ext": {
+                "Cloud-drive": "tvfan/Cloud-drive.txt",
+                "from": "4k|auto"
+            }
+        },
+        {
+            "key": "抠搜资源",
+            "name": "🍄抠搜4K",
+            "type": 3,
+            "api": "csp_KkSs",
+            "jar": "http://z.jwl.icu/xyg.jar",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 0,
+            "ext": {
+                "Cloud-drive": "tvfan/Cloud-drive.txt",
+                "from": "4k|auto"
+            }
+        },
+        {
+            "key": "夸搜资源",
+            "name": "🐟夸搜4K",
+            "type": 3,
+            "api": "csp_PanSearch",
+            "jar": "http://z.jwl.icu/xyg.jar",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 0,
+            "ext": {
+                "pan": "quark",
+                "Cloud-drive": "tvfan/Cloud-drive.txt",
+                "from": "4k|auto"
+            }
+        },
+        {
+            "key": "易搜",
+            "name": "😹易搜4K",
+            "type": 3,
+            "api": "csp_YiSo",
+            "jar": "http://z.jwl.icu/xyg.jar",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 0,
+            "ext": {
+                "Cloud-drive": "tvfan/Cloud-drive.txt",
+                "from": "4k|auto"
+            }
+        },
+        {
+            "key": "盘搜资源",
+            "name": "🦊盘搜4K",
+            "type": 3,
+            "api": "csp_PanSou",
+            "jar": "http://z.jwl.icu/xyg.jar",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 0,
+            "ext": {
+                "Cloud-drive": "tvfan/Cloud-drive.txt",
+                "from": "4k|auto"
+            }
+        },
+        {
+            "key": "胖达资源",
+            "name": "🐼胖达4K",
+            "type": 3,
+            "api": "csp_PanSearch",
+            "jar": "http://z.jwl.icu/xyg.jar",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 0,
+            "ext": {
+                "Cloud-drive": "tvfan/Cloud-drive.txt",
+                "from": "4k|auto"
+            }
+        },
+        {
+            "key": "阿里合集",
+            "name": "📁｜阿里合集",
+            "type": 3,
+            "api": "csp_AliShare",
+            "searchable": 1,
+            "changeable": 0,
+            "filterable": 0,
+            "indexs": 0,
+            "ext": {
+                "token": "file://TV/ali_token.txt",
+                "share": "file://TV/阿里集合.json"
+            },
+            "style": {
+                "type": "list"
+            },
+            "timeout": 30
+        },
+        {
+            "key": "我的阿里",
+            "name": "📁｜我的阿里",
+            "type": 3,
+            "api": "csp_MyAli",
+            "searchable": 0,
+            "quickSearch": 0,
+            "filterable": 0,
+            "indexs": 0,
+            "ext": {
+                "token": "file://TV/ali_token.txt"
+            },
+            "style": {
+                "type": "list"
+            },
+            "timeout": 30
+        },
+        {
+            "key": "我的夸克",
+            "name": "📁｜我的夸克",
+            "type": 3,
+            "api": "csp_MyQuark",
+            "searchable": 0,
+            "quickSearch": 0,
+            "filterable": 0,
+            "indexs": 0,
+            "ext": {
+                "cookie": "file://TV/quark_cookie.txt"
+            },
+            "style": {
+                "type": "list"
+            },
+            "timeout": 30
+        },
+        {
+            "key": "我的UC",
+            "name": "📁｜我的优析",
+            "type": 3,
+            "api": "csp_MyUc",
+            "searchable": 0,
+            "quickSearch": 0,
+            "filterable": 0,
+            "indexs": 0,
+            "ext": {
+                "uc_cookie": "file://TV/uc_cookie.txt"
+            },
+            "style": {
+                "type": "list"
+            },
+            "timeout": 30
+        },
+        {
+            "key": "饭配置推送",
+            "name": "🐟｜配置推送",
+            "type": 3,
+            "api": "csp_Push",
+            "jar": "http://z.jwl.icu/xyg.jar",
+            "searchable": 0,
+            "quickSearch": 0,
+            "ext": {
+                "Cloud-drive": "tvfan/Cloud-drive.txt",
+                "from": "4k|auto"
+            }
+        }
+    ],
+    "parses": [
+        {
+            "name": "聚合1",
+            "type": 3,
+            "url": "Demo"
+        },
+        {
+            "name": "聚合0",
+            "type": 3,
+            "url": "Web"
+        },
+        {
+            "name": "🦞龙虾解析",
+            "url": "http://llyh.xn--yi7aa.top/api/?key=5b317c16d457b31a3150d87c0a362a9e&url=",
+            "flag": [
+                "LXTX"
+            ],
+            "header": {
+                "User-Agent": "Dalvik/2.1.0"
+            },
+            "type": "1"
+        },
+        {
+            "name": "🥇黄金云解析",
+            "type": 1,
+            "url": "http://jx.hjfggzs.top/api/diy/?key=MgayuZRdJt07QuimYV&url=",
+            "ext": {
+                "flag": [
+                    "qq",
+                    "腾讯",
+                    "qiyi",
+                    "爱奇艺",
+                    "奇艺",
+                    "youku",
+                    "优酷",
+                    "mgtv",
+                    "芒果",
+                    "ST4K",
+                    "NBY",
+                    "BBA",
+                    "m78",
+                    "nmys",
+                    "4kvip",
+                    "mytv"
+                ]
+            }
+        }
+    ],
+    "lives": [
+        {
+            "name": "SAO0",
+            "type": 0,
+            "url": "http://我不是.摸鱼儿.top/live.php",
+            "playerType": 1,
+            "ua": "okhttp/3.15",
+            "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
+            "logo": "https://live.fanmingming.com/tv/{name}.png"
+        },
+        {
+            "name": "IPV6",
+            "type": 0,
+            "url": "https://live.fanmingming.com/tv/m3u/ipv6.m3u",
+            "playerType": 1,
+            "ua": "okhttp/3.15",
+            "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
+            "logo": "https://live.fanmingming.com/tv/{name}.png"
+        }
+    ]
+}
